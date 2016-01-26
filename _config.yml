@@ -13,7 +13,6 @@ description: > # this means to ignore newlines until "baseurl:"
   This site will be the repository for all of the content needed for this course.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://RPI-CSCI-2500-2016-Spring.github.io" # the base hostname & protocol for your site
-twitter_username: laprej
 github_username:  laprej
 
 # Build settings
