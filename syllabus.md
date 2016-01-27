@@ -1,10 +1,11 @@
 ---
-layout: default
-title: CSCI 2500 Computer Organization
+layout: page
+title: Syllabus
 description: Syllabus for CSCI 2500 Computer Organization.
 ---
 
 ## CSCI 2500, Computer Organization
+
 ### Spring 2016
 
 Dr. Justin M. LaPre  
