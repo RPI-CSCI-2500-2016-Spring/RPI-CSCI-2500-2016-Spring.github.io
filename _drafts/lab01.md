@@ -9,17 +9,20 @@ category: lab
 Follow these [instructions](http://www.cs.rpi.edu/academics/courses/spring16/csci1200/cygwin.php) to install Cygwin.
 At Step 5, enable Git.
 
-## Try some Git tutorials
+## Mac, Linux Users
+With a high likelihood, Git is already installed.
+
+## 1. Try some Git tutorials
 A little rusty at git?  Never used it before?  Try searching for some tutorials for beginners such as
 [http://try.github.io](http://try.github.io).
-Already well-versed in the various git incantations?  Feel free to skip this step.
+Already well-versed in the various git incantations?  Don't dawdle too long.
 
-## Sign up for Github!
+## 2. Sign up for Github!
 Need a Github account?  You can sign up for one right
 [here](https://github.com/join?source=header).
 As a bonus, students are eligible for the [Student Developer Pack](https://education.github.com/pack) which contains some nice discounts / free stuff for student developers.
 
-## Accept Assignment 1
-Accept assignment 1
+## 3. Accept Assignment 1
+By accepting this assignment, you will join the Github organization for this class.
 
-Turn on automated testing!
+[https://classroom.github.com/assignment-invitations/290cc11c5e0027cf5b5d31320aef6aab](https://classroom.github.com/assignment-invitations/290cc11c5e0027cf5b5d31320aef6aab)
