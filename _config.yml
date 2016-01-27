@@ -18,3 +18,4 @@ github_username:  laprej
 # Build settings
 kramdown:
   input: GFM
+  hard_wrap: false
