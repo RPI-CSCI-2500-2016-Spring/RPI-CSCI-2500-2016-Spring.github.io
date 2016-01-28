@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Assignment 1 questions
+title:  Assignment 1 Questions
 category: questions
 ---
 
