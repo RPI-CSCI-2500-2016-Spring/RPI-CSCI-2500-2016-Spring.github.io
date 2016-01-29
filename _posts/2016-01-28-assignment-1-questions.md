@@ -21,3 +21,21 @@ Describe what you are doing in the comments and then code it up.
 
 Some of the comments in the file I provided have persisted through multiple iterations of this particular homework.
 This should be a good lesson of what *not* to do. Keep your comments up to date! Sorry for the confusion.
+
+---------------------------------------
+
+<a id="Q3"></a>
+
+#### Does our output have to match the sample output provided?
+
+Please try your best to make it as similar as possible, if not identical.
+
+---------------------------------------
+
+<a id="Q4"></a>
+
+#### How do we get `float` variables from the input file?  `fgets()` returns a `char *`.
+
+You should use the `sscanf()` function.  See slide 157 in [intro.ppt][intro-slides] or `man 3 sscanf`.
+
+[intro-slides]: {{site.base}}/slides/intro.ppt
