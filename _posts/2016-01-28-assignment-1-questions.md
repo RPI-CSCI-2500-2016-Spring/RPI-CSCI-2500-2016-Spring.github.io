@@ -12,3 +12,12 @@ It really doesn't matter.  The point of this assignment is to learn about alloca
 The `swap` operation is a nonsensical operation that I made up.
 The way it's described doesn't even necessarily preserve the contents of the matrix, but that is not the point of this assignment.
 Describe what you are doing in the comments and then code it up.
+
+---------------------------------------
+
+<a id="Q2"></a>
+
+#### Also what does the line"use a quad loop method" mean? I was able to do the matrix multiplication using 3 for loops.
+
+Some of the comments in the file I provided have persisted through multiple iterations of this particular homework.
+This should be a good lesson of what *not* to do. Keep your comments up to date! Sorry for the confusion.
