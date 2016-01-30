@@ -48,3 +48,11 @@ You should use the `sscanf()` function.  See slide 157 in [intro.ppt][intro-slid
 #### For Comp Org Assignment 1, the provided answer.out file has both the swap and result matrices printed.  The main function in mm.c only calls the print function on the result matrix, so this is all that is printed when my program executes.  The instructions say to leave the main function as is, so I was wondering if this is what you wanted.
 
 You can call `mm_print()` at the end of your `mm_swap()` function.  Not only will this let your output match, it should also help you while debugging your program.
+
+---------------------------------------
+
+<a id="Q6"></a>
+
+#### I do not have access to a Linux computer. As the assignment states that it requires a Linux computer what do I do?
+
+Cygwin is an acceptable Linux substitute as is a Mac.
