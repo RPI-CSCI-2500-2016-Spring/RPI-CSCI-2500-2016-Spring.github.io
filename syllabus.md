@@ -63,7 +63,7 @@ All office hours are typically held in the Amos Eaton, room 217, unless otherwis
 
 * Assignment 1 due on Tuesday, February 2nd.  Quiz 1 on Friday, February 5th.
 * February 15, 2016 - February 16, 2016	President's Day holiday -- No classes.
-* Assignment 2 due on Wednesday, February 16th.  Quiz 2 on Friday, February 19th.
+* Assignment 2 due on Wednesday, February 17th.  Quiz 2 on Friday, February 19th.
 * Assignment 3 due on Tuesday, March 1st.  Quiz 3 on Friday, March 4th.
 * SPRING BREAK March 14, 2016 -- March 18, 2016
 * Assignment 4 due on Tuesday, March 22nd.  Quiz 4 on Friday, March 25th.
