@@ -93,11 +93,10 @@ With a very high likelihood, students actually attempting to solve the problem w
 **Lab Sections**: Lab attendance is mandatory and you will be graded.
 Keeping up with the labs will be the best way for your to make sure that you do not fall behind.
 
-**Late Assignments Policy**: Late assignments will not be
-graded. You will get a zero for that assignment, except under
-extenuating circumstances, such as illness, family death etc. If you
-are ill, please be prepared to provide a note from the heath center or
-your own family physician.
+**Late Assignments Policy**: Three late days are permitted for assignments.
+They will be consumed in whole day increments. In other words, if you are one hour late, that will
+count as one day. 25 hours late will count as two days, etc. Once these are exhausted, late assignments
+will not be graded.
 
 **Grade Modifiers Policy**: Grade modifiers will be used in this
 class. Nominally, for example, you expect to earn a B- if your score
