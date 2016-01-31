@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Assignment 1 Questions
-date: 2016-01-30
+date: 2016-01-31
 category: questions
 ---
 
@@ -72,3 +72,13 @@ On Github, right above your list of files, there should be a blue bar.  This wil
 #### Should we be using a memory debugger like valgrind to make sure there are no memory leaks in our program?
 
 I think valgrind is probably a little overkill for a program of this size.  But if it makes you happy, sure, feel free to use it.
+
+---------------------------------------
+
+<a id="Q9"></a>
+
+#### I'm new to git so even though I did the git tutorial I don't quite understand the process we are supposed to do to submit Comp Org Assignment 1. Are you supposed to create a pull request? I don't know.
+
+There is nothing else that you have to do.  The TAs and I have access to every student's files.  We will collect the files on the due date.
+The only thing required of you is that you make sure that the version of the files on Github matches what you have done in your local repository.
+For that, you need to do a `git push` after you have committed all of your changes.
