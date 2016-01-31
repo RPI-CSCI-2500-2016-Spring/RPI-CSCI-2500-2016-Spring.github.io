@@ -56,3 +56,19 @@ You can call `mm_print()` at the end of your `mm_swap()` function.  Not only wil
 #### I do not have access to a Linux computer. As the assignment states that it requires a Linux computer what do I do?
 
 Cygwin is an acceptable Linux substitute as is a Mac.
+
+---------------------------------------
+
+<a id="Q7"></a>
+
+#### I finished Assignment 1 and tried to submit it via the git commands. In the terminal it says I have the most up-to-date version, but online on github, I can not seem to find where it has been pushed to. Where do I check if it has been correctly pushed?
+
+On Github, right above your list of files, there should be a blue bar.  This will contain the message from your most recently pushed commit (it's also clickable).  If this has your most recent commit message then you are all set.  Additionally, above that there should be a link to all of your commits labeled "*n* commits" where *n* is the number of commits you have made over the history of this repository.
+
+---------------------------------------
+
+<a id="Q8"></a>
+
+#### Should we be using a memory debugger like valgrind to make sure there are no memory leaks in our program?
+
+I think valgrind is probably a little overkill for a program of this size.  But if it makes you happy, sure, feel free to use it.
