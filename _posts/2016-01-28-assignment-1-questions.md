@@ -82,3 +82,13 @@ I think valgrind is probably a little overkill for a program of this size.  But 
 There is nothing else that you have to do.  The TAs and I have access to every student's files.  We will collect the files on the due date.
 The only thing required of you is that you make sure that the version of the files on Github matches what you have done in your local repository.
 For that, you need to do a `git push` after you have committed all of your changes.
+
+---------------------------------------
+
+<a id="Q10"></a>
+
+#### So since we will be turning in the assignments via GitHub, is the final push due at 8 AM on Tuesdays or 11:59 PM Tuesday?
+
+8 AM does seem a bit earlier for your average computer scientist or RPI student so I suppose 11:59 PM would be better.
+**The new due date will be 11:59 PM, Tuesday, February 2nd, 2016.**
+I wouldn't wait until the last minute, though.
