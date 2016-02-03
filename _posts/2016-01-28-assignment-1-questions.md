@@ -90,5 +90,5 @@ For that, you need to do a `git push` after you have committed all of your chang
 #### So since we will be turning in the assignments via GitHub, is the final push due at 8 AM on Tuesdays or 11:59 PM Tuesday?
 
 8 AM does seem a bit earlier for your average computer scientist or RPI student so I suppose 11:59 PM would be better.
-**The new due date will be 11:59 PM, ~~Tuesday, February 2nd~~ Wednesday, February 3rd, 2016.**
+**The new due date will be 11:59 PM, <s>Tuesday, February 2nd</s> Wednesday, February 3rd, 2016.**
 I wouldn't wait until the last minute, though.
