@@ -87,6 +87,7 @@ made in lecture (e.g., any change in due dates).
 Additionally, you *are* responsible for the **problem of the day**.
 
 **Problem of the day**: Each day in lecture you are to turn in the problem assigned from the previous lecture.
+Students are excused from handing this in on quiz days; turn it in at the beginning of the following lecture.
 The twist is that actually solving the problem is optional, i.e., you will receive full credit by simply putting your name on the page.
 With a very high likelihood, students actually attempting to solve the problem will achieve a deeper understanding of the material than those that simply write their name on the paper.
 
