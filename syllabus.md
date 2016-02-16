@@ -99,6 +99,9 @@ They will be consumed in whole day increments. In other words, if you are one ho
 count as one day. 25 hours late will count as two days, etc. Once these are exhausted, late assignments
 will not be graded.
 
+**Grade Disputes**: Grade disputes must be made within 10 days.
+After 10 days has elapsed, the grade on record will stand.
+
 **Grade Modifiers Policy**: Grade modifiers will be used in this
 class. Nominally, for example, you expect to earn a B- if your score
 is greater than 79.5 and less than 83.0, B if your score is greater
