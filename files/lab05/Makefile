@@ -17,3 +17,6 @@ frac: frac.o frac_main.c
 
 frac.o: frac.ll
 	clang -Wall -c frac.ll
+
+clean:
+	rm -f *~ *.o fizzbuzz average frac
