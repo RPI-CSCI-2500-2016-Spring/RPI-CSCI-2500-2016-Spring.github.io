@@ -15,6 +15,8 @@ Rebase can potentially change the repository history which is *bad*.
 If you are new to git, stick to the following: `add, commit, push, pull`.
 I would also recommend sticking with command line git in the terminal as opposed to using a git client to learn it a little better.
 
+---------------------------------------
+
 <a id="Q2"></a>
 
 #### I know that in the first code assignment we submitted you had asked for our names to be written in the main c file, for this one does it matter whether it goes in the c or the llvm file?
