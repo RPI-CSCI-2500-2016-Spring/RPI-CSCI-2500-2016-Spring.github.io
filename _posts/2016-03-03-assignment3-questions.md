@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Assignment 3 Questions
-date: 2016-03-07 14:10:00
+date: 2016-03-10 20:40:00
 category: questions
 ---
 
@@ -43,3 +43,11 @@ For Assignment 3, you should be using the *actual* transpose and NOT the fake on
 You can use `declare` just like `define` but without a function body.
 This will let the compiler know that, say, `mm_alloc()` exists but *not* in this particular file.
 See [here](https://github.com/RPI-CSCI-2500-2016-Spring/assignment3-laprej/blob/master/matrix.ll) for an example.
+
+---------------------------------------
+
+<a id="Q5"></a>
+
+#### How should we output stuff to the console in LLVM for the mm_print method? Should we just use printf, or is there a better command to use (especially if we don't want to deal with fancy format strings but just printing a single char or int at a time)?
+
+You can generate some code from a similar "test" program that prints strings to the console using printf().
