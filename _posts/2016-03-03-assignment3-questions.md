@@ -48,6 +48,6 @@ See [here](https://github.com/RPI-CSCI-2500-2016-Spring/assignment3-laprej/blob/
 
 <a id="Q5"></a>
 
-#### How should we output stuff to the console in LLVM for the mm_print method? Should we just use printf, or is there a better command to use (especially if we don't want to deal with fancy format strings but just printing a single char or int at a time)?
+#### How should we output stuff to the console in LLVM for the `mm_print` method? Should we just use `printf()`, or is there a better command to use (especially if we don't want to deal with fancy format strings but just printing a single `char` or `int` at a time)?
 
-You can generate some code from a similar "test" program that prints strings to the console using printf().
+You can generate some code from a similar "test" program that prints strings to the console using `printf()`.
