@@ -16,3 +16,27 @@ It's this hierarchy that provides us with the speed.
 In fact, everyone should study why this configuration is preferred over stringing together 64 1-bit adders, 16 4-bit adders, etc.
 Appendix B.6 uses the prefix "super," e.g., super propagate, super generate.
 The textbook coverage is fairly thorough.
+
+---------------------------------------
+
+<a id="Q2"></a>
+
+#### How will the program receive its input, and did you have any specific test cases in mind (like test_matrix.dat for assignment 1)?
+
+I should have specified.  Entering 64 bits would be a little tedious.  You should supply your input in hexadecimal.  So you should have something similar to this:  
+<pre>
+long hex_val;
+printf("Please enter a (hex) value: ");
+scanf("%lx", &hex_val);
+printf("%lx", hex_val);
+</pre>
+You can even add them to check your answer.
+
+---------------------------------------
+
+<a id="Q3"></a>
+
+#### Step 7 in the pdf says sum_i = a_i +b_i +c_i, but the top of the pdf has c_{i-1} instead of c_i.  Isn't c_{i-1} correct?
+
+Step 7 builds on step 6, step 8 builds on step 7, etc.
+You calculate them based on the incoming c_x value which is why those indices are changing.
