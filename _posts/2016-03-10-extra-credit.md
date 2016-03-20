@@ -8,4 +8,4 @@ Read [Data and Goliath](http://amzn.com/039335217X) (kindle, soft cover, whateve
 Write a one to two page (typed) summary answering the following question:
 Is the FBI or Apple correct in their handling of the phone encryption case?
 Back up your claim with citations from the book.
-**Update:** the due date is April 15th, 2016.
+**Update:** the due date is April 15th, 2016 at the start of lecture.
