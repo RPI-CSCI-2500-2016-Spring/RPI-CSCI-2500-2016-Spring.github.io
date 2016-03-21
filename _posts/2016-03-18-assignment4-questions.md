@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Assignment 4 Questions
-date: 2016-03-20 15:00:00
+date: 2016-03-20 22:30:00
 category: questions
 ---
 
@@ -45,6 +45,14 @@ You calculate them based on the incoming c_x value which is why those indices ar
 
 <a id="Q4"></a>
 
-#### In step 5 (and similarly in 6) where it says k = j mod 4, should this be a division instead of a mod?  I’m thinking that j goes from 0 to 15, so sections will begin at multiples of 4, so taking j mod 4 will always give you k=0 and therefore only give you sc_0 as your carry-in for each of the sections.
+#### In step 5 (and similarly in 6) where it says k = j mod 4, should this be a division instead of a mod?  I'm thinking that j goes from 0 to 15, so sections will begin at multiples of 4, so taking j mod 4 will always give you k=0 and therefore only give you sc_0 as your carry-in for each of the sections.
 
 Yes, you are correct!  I will adjust the PDF accordingly.
+
+---------------------------------------
+
+<a id="Q5"></a>
+
+#### Is this just going to be for unsigned numbers, or will negative numbers be added too?
+
+Unsigned values are fine and we won't be testing negative values, overflows, or anything like that.
