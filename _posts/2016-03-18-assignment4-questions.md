@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Assignment 4 Questions
-date: 2016-03-20 22:30:00
+date: 2016-03-25 14:00:00
 category: questions
 ---
 
@@ -56,3 +56,15 @@ Yes, you are correct!  I will adjust the PDF accordingly.
 #### Is this just going to be for unsigned numbers, or will negative numbers be added too?
 
 Unsigned values are fine and we won't be testing negative values, overflows, or anything like that.
+
+---------------------------------------
+
+<a id="Q6"></a>
+
+#### Are we required to also express the hexadecimal values as decimals like you did? Or is that simply for clarity? Also are we required to then convert the binary sum back into hex and decimal? I didn't see that specified anywhere on the assignment.
+
+When sample output is supplied, it's usually best to try and mimic it as closely as possible.
+That said, it's actually the binary representation that is rather unusual.
+Packing those bits into, say, an `unsigned long` is much more natural and then you will be able to utilize the `printf()` function to print the value in any format you wish.
+See this [stackoverflow answer](http://stackoverflow.com/questions/47981/how-do-you-set-clear-and-toggle-a-single-bit-in-c-c) for help with dealing with binary values.
+Once the bits are in a well-supported type the conversions become trivial.
