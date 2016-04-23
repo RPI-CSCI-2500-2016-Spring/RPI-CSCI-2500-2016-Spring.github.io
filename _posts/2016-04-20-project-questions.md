@@ -42,7 +42,7 @@ You just need to fill in the details.
 
 `iplc_sim_trap_address()` should be called from primarily three locations:
 
-* near the top of `iplc_sim_parse_instruction()` so get the address of your instruction
+* near the top of `iplc_sim_parse_instruction()` to get the address of your instruction
 * inside `iplc_sim_push_pipeline_stage()` to capture the address of `store` instructions
 * inside `iplc_sim_push_pipeline_stage()` to capture the address of `load` instructions
 
