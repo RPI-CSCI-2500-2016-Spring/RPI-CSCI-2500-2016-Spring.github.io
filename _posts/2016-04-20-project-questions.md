@@ -98,3 +98,19 @@ for( i = 0; i < strlen(reg_str); i++ )
 return(atoi(reg_str));
 ```
 Yes, I see what you are saying.  But if you look in the provided `iplc_sim_parse_instruction()` function, `-1` values are passed in anyway so you don't have to worry about that.
+
+---------------------------------------
+
+<a id="Q9"></a>
+
+#### In the provided code, the rtype_t struct is used for both R-format (e.g. add) and I-format (e.g. addi) MIPS instructions. It uses the same variable to store the second source reg for an R-format instruction and the immediate value for an I-format. I can forsee this causing inconsistencies with the pipeline. For instance, with this hypothetical series of instructions:
+```
+lw $8, 0($16)
+addi $9, $10, 8
+```
+
+Actually, I think the above question was referring to the same issue now that I have read it again.
+Chalk it up to a bug on my part.
+Cases where such code sequences exist should hopefully be few in number, but you are correct.
+Do the best with the code provided.
+Substandard code is unfortunately a fact of life.
