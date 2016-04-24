@@ -78,7 +78,7 @@ Not really.  As long as your numbers line up (or are close) with our numbers, yo
 <a id="Q8"></a>
 
 #### I am having issues seeing a way to detect hazards without heavy modification of your template code.
-
+```
 Example 1
 LW $1, 4($2)
 LW $3, 4($1)
@@ -96,5 +96,5 @@ The problem I see here is that the existing code does not ID a $2 vs a 2.
 for( i = 0; i < strlen(reg_str); i++ )
    reg_str[i] = reg_str[i+1];
 return(atoi(reg_str));
-
+```
 Yes, I see what you are saying.  But if you look in the provided `iplc_sim_parse_instruction()` function, `-1` values are passed in anyway so you don't have to worry about that.
