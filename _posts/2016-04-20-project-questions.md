@@ -108,6 +108,7 @@ Yes, I see what you are saying.  But if you look in the provided `iplc_sim_parse
 lw $8, 0($16)
 addi $9, $10, 8
 ```
+
 #### The addi is represented by an rtype_t struct with the constant 8 stored in the variable reg2_or_constant. When the addi is in the ALU stage and the lw is in the MEM stage, we would check to see if the lw_t's dest reg is the same as either of the rtype_t's source regs and stall if it is. But in this case, it would see that the lw_t's dest_reg $8 has the same value as the rtype_t's reg2_or_constant 8 and stall the pipeline even though the addi doesn't use register 8. It seems like there should either be a different struct for I-format instructions or that the rtype_t struct should have different variables for the second source reg of an R-format instruction and the constant of an I-format instruction. What is your advice?
 
 
