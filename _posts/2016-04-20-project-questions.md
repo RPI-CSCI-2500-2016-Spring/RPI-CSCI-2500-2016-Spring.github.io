@@ -15,8 +15,7 @@ Thanks for sharing!
 
 <a id="Q2"></a>
 
-#### How is data stored in the cache? Is it in the `cache[i].replacement[j]`? If not what does the 
-`cache[i].replacement[j]` do and why is it set to `j`?
+#### How is data stored in the cache? Is it in the `cache[i].replacement[j]`? If not what does the `cache[i].replacement[j]` do and why is it set to `j`?
 
 This simulation doesn't actually store any data but rather *metadata*.
 Otherwise, we would have supplied a full image for your CPU simulator to run on.
