@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Project Questions
-date: 2016-04-24 14:00:00
+date: 2016-04-25 14:00:00
 category: questions
 ---
 
@@ -103,7 +103,7 @@ Yes, I see what you are saying.  But if you look in the provided `iplc_sim_parse
 
 <a id="Q9"></a>
 
-#### In the provided code, the rtype_t struct is used for both R-format (e.g. add) and I-format (e.g. addi) MIPS instructions. It uses the same variable to store the second source reg for an R-format instruction and the immediate value for an I-format. I can forsee this causing inconsistencies with the pipeline. For instance, with this hypothetical series of instructions:
+#### In the provided code, the rtype_t struct is used for both R-format (e.g. add) and I-format (e.g. addi) MIPS instructions. It uses the same variable to store the second source reg for an R-format instruction and the immediate value for an I-format. I can foresee this causing inconsistencies with the pipeline. For instance, with this hypothetical series of instructions:
 ```
 lw $8, 0($16)
 addi $9, $10, 8
@@ -117,3 +117,11 @@ Chalk it up to a bug on my part.
 Cases where such code sequences exist should hopefully be few in number, but you are correct.
 Do the best with the code provided.
 Substandard code is unfortunately a fact of life.
+
+---------------------------------------
+
+<a id="Q10"></a>
+
+#### For the method: `iplc_sim_LRU_update_on_hit(int index, int assoc)`, what is the purpose of the `assoc` argument?
+
+It is the entry into your cache set for when you are using a cache configuration with an associativity greater than one.
