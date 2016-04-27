@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Project Questions
-date: 2016-04-26 23:00:00
+date: 2016-04-27 16:30:00
 category: questions
 ---
 
@@ -134,3 +134,26 @@ It is the entry into your cache set for when you are using a cache configuration
 
 Inside of your `iplc_sim_push_pipeline_stage()` function, you are able to access the address of instructions at all stages of your pipeline.
 When your branch instruction is in the decode stage, you can check to see if the address of your newly-inserted follow-up instruction in the fetch stage is greater than four bytes away.
+
+---------------------------------------
+
+<a id="Q12"></a>
+
+#### When we push the stages through the pipeline, do we need to use if statements to cover each type of instruction and its associated member variables (type, address, stage variables)? Or will simple assignment operators properly copy the stage:
+```
+pipeline[WRITEBACK] = pipeline[MEM];
+pipeline[MEM] = pipeline[ALU];
+pipeline[ALU] = pipeline[DECODE];
+pipeline[ALU] = pipeline[FETCH];
+```
+
+That would work if those values were basic data types (`char`, `int`, `float`, etc.) but seeing as they are actually `struct`s, you should probably use `memcpy()` and friends.
+
+---------------------------------------
+
+<a id="Q13"></a>
+
+#### I am also confused about replace on miss. I see that there is a replacement pointer in the data structure. Are we supposed to make it point to the tag that should be replaced next? I am not sure how it is supposed to work.
+
+The only reason we do that is because the number of entries is dynamic.
+See the answer for <a href="#Q2">question 2</a> above.
