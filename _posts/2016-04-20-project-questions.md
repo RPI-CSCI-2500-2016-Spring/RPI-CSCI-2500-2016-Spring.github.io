@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Project Questions
-date: 2016-04-25 14:00:00
+date: 2016-04-26 23:00:00
 category: questions
 ---
 
@@ -125,3 +125,12 @@ Substandard code is unfortunately a fact of life.
 #### For the method: `iplc_sim_LRU_update_on_hit(int index, int assoc)`, what is the purpose of the `assoc` argument?
 
 It is the entry into your cache set for when you are using a cache configuration with an associativity greater than one.
+
+---------------------------------------
+
+<a id="Q11"></a>
+
+#### I am having a bit of trouble implementing the branch predictor. I understand the idea of checking the program counter for the next instruction, but I am having trouble seeing how that is implemented. I see that each branch has two registers, but those are not related to the program counter and are set to -1 by default. If there is no program counter variable, how should I check the next instruction?
+
+Inside of your `iplc_sim_push_pipeline_stage()` function, you are able to access the address of instructions at all stages of your pipeline.
+When your branch instruction is in the decode stage, you can check to see if the address of your newly-inserted follow-up instruction in the fetch stage is greater than four bytes away.
