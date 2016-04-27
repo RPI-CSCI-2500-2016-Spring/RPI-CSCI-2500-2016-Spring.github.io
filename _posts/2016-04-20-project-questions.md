@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Project Questions
-date: 2016-04-27 16:30:00
+date: 2016-04-27 16:45:00
 category: questions
 ---
 
@@ -157,3 +157,17 @@ That would work if those values were basic data types (`char`, `int`, `float`, e
 
 The only reason we do that is because the number of entries is dynamic.
 See the answer for <a href="#Q2">question 2</a> above.
+
+---------------------------------------
+
+<a id="Q14"></a>
+
+#### I'm still confused about iplc_sim_trap_address().
+
+#### My understanding is that it's meant to return 1 and call iplc_sim_LRU_update_on_hit() if the address was in the cache, and return 0 and call iplc_sim_LRU_replace_on_miss() if not.
+
+#### So, I'm supposed to do something similar to what we did in Lab 8, right? I take an address, and from those 32 bits I extract index, tag and block offset? If the only argument is address, how should I figure which bits belong to which? Do I calculate it each time within the function using from the size of the cache data structure? If I'm misinterpreting or missing anything the function is supposed to do, please let me know.
+
+Yes, `iplc_sim_trap_address()` takes a single value which is the address.
+In the `iplc_sim_init()` function, global variables `cache_index`, `cache_blocksize`, and `cache_assoc` are set and available for you to use.
+From that address and those variables you should be able to extract the tag, index, and block offset bits.
