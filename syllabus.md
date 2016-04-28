@@ -61,22 +61,22 @@ All office hours are typically held in the Amos Eaton, room 217, unless otherwis
 
 ### Schedule of Homework and Quizzes and NO CLASS days
 
-* Assignment 1 due on Tuesday, February 2nd.  Quiz 1 on Friday, February 5th.
+* Assignment 1 due on Wednesday, February 3rd.  Quiz 1 on Friday, February 5th.
 * February 15, 2016 - February 16, 2016	President's Day holiday -- No classes.
 * Assignment 2 due on Wednesday, February 17th.  Quiz 2 on Friday, February 19th.
-* Assignment 3 due on Tuesday, March 1st.  Quiz 3 on Friday, March 4th.
+* Assignment 3 due on Friday, March 11th.  Quiz 3 on Friday, March 4th.
 * SPRING BREAK March 14, 2016 -- March 18, 2016
-* Assignment 4 due on Tuesday, March 22nd.  Quiz 4 on Friday, March 25th.
-* Assignment 5 due on Tuesday, April 5th.  Quiz 5 on Friday, April 8th.
-* Assignment 6 due on Tuesday, April 19th.  Quiz 6 on Friday, April 22nd.
+* Assignment 4 due on Wednesday, March 30nd.  Quiz 4 on Friday, March 25th.
+* ~~Assignment 5 due on Tuesday, April 5th~~.  Quiz 5 on Friday, April 8th.
+* ~~Assignment 6 due on Tuesday, April 19th~~.  Quiz 6 on Friday, April 22nd.
 * Group Project due date, Friday April 29th.
-* Assignment 7 due on Tuesday, May 3rd.  Quiz 7 on Friday, May 6th.
+* Joint Assignment 5/6 due on Wednesday, May 11th.  Quiz 7 on Friday, May 6th.
 
 ### Grading and Other Class Policies
 
 *  4%: Problem of the day
 *  10%: Lab sections
-*  35%: 7 homeworks, 5 pts each -- due every other Tuesday.
+*  35%: 6 homeworks, 5.83 pts each -- due every other Tuesday.
 *  42%: 7 quizzes, 6 pts each, given in class every other Friday.
 *   9%: 1 project.
 
