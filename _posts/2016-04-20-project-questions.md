@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Project Questions
-date: 2016-04-28 12:00:00
+date: 2016-04-28 17:45:00
 category: questions
 ---
 
@@ -202,3 +202,21 @@ This report may possibly include graphs or other evidence backing up your claim 
 
 As this is my first experience using GitHub for Education the team-based project management was still a little fuzzy in my mind as I put this project together.
 You can ignore that part -- the TAs and I know where to find the projects! :)
+
+---------------------------------------
+
+<a id="Q18"></a>
+
+#### While trying to calculate the index bits for performance, we realized that we do not know how to calculate the index bits algebraically. How should we calculate the index bits?
+
+You can do some bit manipulation like we did in Lab 8.
+If we have address 0x000000z0 and we need to get the *z* out, we can right shift by four to get rid of the trailing zero (remember, in hex each digit corresponds to four bits), then bitwise AND with a bitmask that you can generate.
+How?
+If you want a 3 bit bitmask, you can do it like this:
+
+```
+x = 1 << 3;
+x = x - 1;
+```
+
+Afterwards, you can take the original address and 
