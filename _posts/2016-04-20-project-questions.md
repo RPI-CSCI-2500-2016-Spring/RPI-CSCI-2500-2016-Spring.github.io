@@ -218,5 +218,3 @@ If you want a 3 bit bitmask, you can do it like this:
 x = 1 << 3;
 x = x - 1;
 ```
-
-Afterwards, you can take the original address and 
