@@ -191,3 +191,14 @@ If a student runs out of late days but other members have spare late days they c
 It's due at midnight.
 You can simply add a pdf, Word document, etc. to the repository.
 This report may possibly include graphs or other evidence backing up your claim that a certain cache configuration is "the best."
+
+---------------------------------------
+
+<a id="Q17"></a>
+
+#### Also what does this line mean? Is it okay if our final code is just on the assignemnt page under the comp org ogranization on github?
+
+#### PLEASE INDICATE WHAT ACCOUNT YOUR FINAL CODE IS LOCATED IN ON GITHUB.
+
+As this is my first experience using GitHub for Education the team-based project management was still a little fuzzy in my mind as I put this project together.
+You can ignore that part -- the TAs and I know where to find the projects! :)
