@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Project Questions
-date: 2016-04-27 16:45:00
+date: 2016-04-28 12:00:00
 category: questions
 ---
 
@@ -171,3 +171,23 @@ See the answer for <a href="#Q2">question 2</a> above.
 Yes, `iplc_sim_trap_address()` takes a single value which is the address.
 In the `iplc_sim_init()` function, global variables `cache_index`, `cache_blocksize`, and `cache_assoc` are set and available for you to use.
 From that address and those variables you should be able to extract the tag, index, and block offset bits.
+
+---------------------------------------
+
+<a id="Q15"></a>
+
+#### I was wondering if late days are applicable to the project due tomorrow.
+
+Late days for the project will be deducted *n* days at a time where *n* is the number of students in your group.
+So if your group has four members and uses two late days, a total of eight late days will be used, distributed across all members.
+If a student runs out of late days but other members have spare late days they can donate some to that student.
+
+---------------------------------------
+
+<a id="Q16"></a>
+
+#### I was hoping for a clarification on the project due date. In the PDF is says we need to hand in a card copy to you but in the README it says it's due at midnight. Is it due in class or by midnight?
+
+It's due at midnight.
+You can simply add a pdf, Word document, etc. to the repository.
+This report may possibly include graphs or other evidence backing up your claim that a certain cache configuration is "the best."
