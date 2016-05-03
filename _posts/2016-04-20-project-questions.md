@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Project Questions
-date: 2016-04-26 23:00:00
+date: 2016-04-28 17:45:00
 category: questions
 ---
 
@@ -134,3 +134,87 @@ It is the entry into your cache set for when you are using a cache configuration
 
 Inside of your `iplc_sim_push_pipeline_stage()` function, you are able to access the address of instructions at all stages of your pipeline.
 When your branch instruction is in the decode stage, you can check to see if the address of your newly-inserted follow-up instruction in the fetch stage is greater than four bytes away.
+
+---------------------------------------
+
+<a id="Q12"></a>
+
+#### When we push the stages through the pipeline, do we need to use if statements to cover each type of instruction and its associated member variables (type, address, stage variables)? Or will simple assignment operators properly copy the stage:
+```
+pipeline[WRITEBACK] = pipeline[MEM];
+pipeline[MEM] = pipeline[ALU];
+pipeline[ALU] = pipeline[DECODE];
+pipeline[ALU] = pipeline[FETCH];
+```
+
+That would work if those values were basic data types (`char`, `int`, `float`, etc.) but seeing as they are actually `struct`s, you should probably use `memcpy()` and friends.
+
+---------------------------------------
+
+<a id="Q13"></a>
+
+#### I am also confused about replace on miss. I see that there is a replacement pointer in the data structure. Are we supposed to make it point to the tag that should be replaced next? I am not sure how it is supposed to work.
+
+The only reason we do that is because the number of entries is dynamic.
+See the answer for <a href="#Q2">question 2</a> above.
+
+---------------------------------------
+
+<a id="Q14"></a>
+
+#### I'm still confused about iplc_sim_trap_address().
+
+#### My understanding is that it's meant to return 1 and call iplc_sim_LRU_update_on_hit() if the address was in the cache, and return 0 and call iplc_sim_LRU_replace_on_miss() if not.
+
+#### So, I'm supposed to do something similar to what we did in Lab 8, right? I take an address, and from those 32 bits I extract index, tag and block offset? If the only argument is address, how should I figure which bits belong to which? Do I calculate it each time within the function using from the size of the cache data structure? If I'm misinterpreting or missing anything the function is supposed to do, please let me know.
+
+Yes, `iplc_sim_trap_address()` takes a single value which is the address.
+In the `iplc_sim_init()` function, global variables `cache_index`, `cache_blocksize`, and `cache_assoc` are set and available for you to use.
+From that address and those variables you should be able to extract the tag, index, and block offset bits.
+
+---------------------------------------
+
+<a id="Q15"></a>
+
+#### I was wondering if late days are applicable to the project due tomorrow.
+
+Late days for the project will be deducted *n* days at a time where *n* is the number of students in your group.
+So if your group has four members and uses two late days, a total of eight late days will be used, distributed across all members.
+If a student runs out of late days but other members have spare late days they can donate some to that student.
+
+---------------------------------------
+
+<a id="Q16"></a>
+
+#### I was hoping for a clarification on the project due date. In the PDF is says we need to hand in a card copy to you but in the README it says it's due at midnight. Is it due in class or by midnight?
+
+It's due at midnight.
+You can simply add a pdf, Word document, etc. to the repository.
+This report may possibly include graphs or other evidence backing up your claim that a certain cache configuration is "the best."
+
+---------------------------------------
+
+<a id="Q17"></a>
+
+#### Also what does this line mean? Is it okay if our final code is just on the assignemnt page under the comp org ogranization on github?
+
+#### PLEASE INDICATE WHAT ACCOUNT YOUR FINAL CODE IS LOCATED IN ON GITHUB.
+
+As this is my first experience using GitHub for Education the team-based project management was still a little fuzzy in my mind as I put this project together.
+You can ignore that part -- the TAs and I know where to find the projects! :)
+
+---------------------------------------
+
+<a id="Q18"></a>
+
+#### While trying to calculate the index bits for performance, we realized that we do not know how to calculate the index bits algebraically. How should we calculate the index bits?
+
+You can do some bit manipulation like we did in Lab 8.
+If we have address 0x000000z0 and we need to get the *z* out, we can right shift by four to get rid of the trailing zero (remember, in hex each digit corresponds to four bits), then bitwise AND with a bitmask that you can generate.
+How?
+If you want a 3 bit bitmask, you can do it like this:
+
+```
+x = 1 << 3;
+x = x - 1;
+```
