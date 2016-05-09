@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Project Questions
+title:  Assignment 5/6 Questions
 date: 2016-05-09 10:30:00
 category: questions
 ---
