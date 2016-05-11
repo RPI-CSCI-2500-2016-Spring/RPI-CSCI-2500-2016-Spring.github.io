@@ -34,3 +34,12 @@ Just a graph to show trends, not an exact graph.
 You can write code in MIPS or LLVM if you wish.
 Construct the code as described using [loop unrolling](https://en.wikipedia.org/wiki/Loop_unrolling) and the newly-introduced `send()` / `receive()` functionality.
 Also, **YOU DO NOT NEED TO SOLVE 6.4.1**.
+
+---------------------------------------
+
+<a id="Q4"></a>
+
+#### For this last homework, if I am not able to finish it by tomorrow night, can I use late days for this homework? I have not used a single late day yet, and I wonder when the deadline of this homework will be if I use all my late days.
+
+Yes, you may use late days for this last homework.
+Please keep in mind, however, that the TAs and I have to grade your assignment *and* calculate and submit grades by a firm deadline so please take no longer than absolutely necessary.
