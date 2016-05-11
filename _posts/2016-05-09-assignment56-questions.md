@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Assignment 5/6 Questions
-date: 2016-05-10 16:30:00
+date: 2016-05-11 14:00:00
 category: questions
 ---
 
@@ -43,3 +43,11 @@ Also, **YOU DO NOT NEED TO SOLVE 6.4.1**.
 
 Yes, you may use late days for this last homework.
 Please keep in mind, however, that the TAs and I have to grade your assignment *and* calculate and submit grades by a firm deadline so please take no longer than absolutely necessary.
+
+---------------------------------------
+
+<a id="Q5"></a>
+
+#### Would the same also apply to the portion of 6.4.3 where we are asked to compute the number of cycles the system would take, as we do not have how long bne takes here either?
+
+You can ignore the cycles taken by the `bne` instructions for this question.
