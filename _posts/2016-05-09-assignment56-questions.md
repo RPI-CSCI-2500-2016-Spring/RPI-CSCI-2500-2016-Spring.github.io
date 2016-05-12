@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Assignment 5/6 Questions
-date: 2016-05-11 14:00:00
+date: 2016-05-12 12:00:00
 category: questions
 ---
 
@@ -51,3 +51,11 @@ Please keep in mind, however, that the TAs and I have to grade your assignment *
 #### Would the same also apply to the portion of 6.4.3 where we are asked to compute the number of cycles the system would take, as we do not have how long bne takes here either?
 
 You can ignore the cycles taken by the `bne` instructions for this question.
+
+---------------------------------------
+
+<a id="Q6"></a>
+
+#### Hi professor, I'm confused about problem 6.3.1 (I'm using late days). In the function, the variables low, mid, and high all are based off of previous iterations of the loop. Wouldn't this mean the function cannot be correctly parallelized?
+
+Loop dependencies aside, is there nothing you can do in parallel?  While you are correct and your speedup will be fairly limited, you may be able to perform some statements in parallel (e.g., determine whether to stay in the while loop, solving for mid, etc.)
